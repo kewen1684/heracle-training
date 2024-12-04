@@ -1,5 +1,5 @@
 /* Importação da fonte Poppins do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
 
 /* Reset CSS: Remove padding, margin e define box-sizing */
 * {
@@ -8,70 +8,73 @@
     box-sizing: border-box;
 }
 
-/* Paleta de Cores Natalina */
+/* Paleta de Cores Heracles */
 :root {
-    --vermelho: #fa5671;
-    --branco: #FCFAEE;
-    --azul-medio: #507687;
-    --azul-escuro: #384B70;
-    --preto: #2c2c2e;
+    --cinza: #bfbfbf;
+    --branco: #f2f2f2;
+    --cinza-medio: #8c8c8c;
+    --cinza-escuro: #404040;
+    --preto: #0d0d0d;
+    --vermelho-vinho:#722F37;
+    --preto-fosco: #23282b;
+    --azul-escuro:#008E9E;
 }
 
 /* Geral */
 body {
     font-family: 'Poppins', sans-serif; /* Fonte padrão */
-    font-size: 16px; /* Tamanho base da fonte */
-    color: var(--azul-escuro); /* Cor padrão do texto */
-    background-color: var(--branco); /* Fundo branco */
+    font-size: 15px; /* Tamanho base da fonte */
+    color: var(--branco); /* Cor padrão do texto */
+    background-color: var(--azul-escuro); /* Fundo branco */
     line-height: 1.6; /* Altura de linha */
 }
 
 /* Links */
 a {
-    color: var(--azul-medio); /* Azul médio para links */
+    color: var(--vermelho-vinho); /* Azul médio para links */
     text-decoration: none;
 }
 a:hover {
-    color: var(--vermelho); /* Vermelho no hover */
+    color: var(--preto); /* Vermelho no hover */
 }
 
 /* Cabeçalhos */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    color: var(--azul-escuro); /* Azul escuro para títulos */
+    color: var(--preto); /* cinza-escuro para títulos */
     margin-bottom: 15px;
 }
 h2 {
-    color: var(--azul-medio); /* Azul médio para subtítulos */
+    color: var(--cinza); /* Azul médio para subtítulos */
 }
 
 /* Parágrafos */
 p {
     margin-bottom: 15px;
-    color: var(--azul-escuro); /* Azul escuro padrão */
+    color: var(--cinza-escuro); /* cinza-escuro padrão */
 }
 
 /* Cartões */
 .card-title {
-    color: var(--azul-escuro); /* Títulos dos cartões em azul escuro */
+    color: var(--preto); /* Títulos dos cartões em cinza-escuro */
 }
 .card-text {
-    color: var(--vermelho); /* Texto dos cartões em vermelho */
+    color: var(--vermelho-vinho); /* Texto dos cartões em vermelho */
 }
 
 /* Botões */
 button {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    background-color: var(--vermelho); /* Fundo vermelho */
-    color: var(--branco); /* Texto branco */
+    background-color: var(--branco); /* Fundo vermelho */
+    color: var(--preto); /* Texto branco */
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
 button:hover {
-    background-color: var(--azul-medio); /* Fundo azul médio no hover */
+    background-color: var(--cinza-medio); /* Fundo azul médio no hover */
 }
 
 /* Navegação */
@@ -79,7 +82,7 @@ button:hover {
     background-color: var(--preto); /* Fundo preto */
 }
 .navbar .nav-link:hover {
-    color: var(--vermelho); /* Links brancos */
+    color: var(--cinza); /* Links brancos */
     margin-right: 15px;
 }
 .navbar .nav-link {
@@ -94,7 +97,7 @@ button:hover {
 }
 .navbar .dropdown-item:hover {
     color: var(--branco); /* Texto branco no dropdown */
-    background-color: var(--vermelho); /* Fundo vermelho no hover */
+    background-color: var(--cinza); /* Fundo vermelho no hover */
 }
 
 /* Rodapé */
@@ -109,7 +112,7 @@ button:hover {
     text-decoration: none;
 }
 .footer-links:hover {
-    color: var(--vermelho); /* Links no hover em vermelho */
+    color: var(--cinza); /* Links no hover em vermelho */
 }
 
 /* Estrutura do container principal */
