@@ -22,10 +22,11 @@
 
 /* Geral */
 body {
+   
     font-family: 'Poppins', sans-serif; /* Fonte padrão */
     font-size: 15px; /* Tamanho base da fonte */
     color: var(--cinza-escuro); /* Cor padrão do texto */
-    background-color: var(--branco); /* Fundo branco */
+    background-color: var(--cinza); /* Fundo branco */
     line-height: 1.6; /* Altura de linha */
 }
 
@@ -56,6 +57,7 @@ p {
 
 /* Cartões */
 .card-title {
+    background-color: var(--cinza);
     color: var(--preto); /* Títulos dos cartões em cinza-escuro */
 }
 .card-text {
