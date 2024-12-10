@@ -1,4 +1,8 @@
+#imglogin{
+    background-image: url(/frontend/public/assets/img/fundo2.jpg);
+}
 .login-page {
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,27 +10,30 @@
     background: #f4f7fc;
 }
 .login-container {
+   
     display: flex;
-    background-color: #fff;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #8c8c8c;
+    box-shadow: 0px 10px 20px rgba(56, 47, 47, 0.1);
     border-radius: 8px;
     overflow: hidden;
     width: 80%;
     max-width: 1200px;
 }
 .login-form {
+   
     padding: 40px;
     width: 50%;
 }
 .register-form {
-    background-color: #f8f9fa;
-    padding: 40px;
+   
+    padding: 50px;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .register-form button {
+   
     width: 100%;
     padding: 15px;
     background-color: #007bff;
@@ -37,20 +44,24 @@
     border-radius: 5px;
 }
 .register-form button:hover {
+   
     background-color: #0056b3;
 }
 .form-group {
+   
     margin-bottom: 15px;
 }
 .form-control {
+   
     border-radius: 5px;
     padding: 12px;
     font-size: 16px;
 }
 .btn-primary {
+   
     width: 100%;
     padding: 15px;
-    background-color: #007bff;
+    background-color: #4d87c5;
     border: none;
     color: white;
     font-size: 16px;
@@ -58,9 +69,11 @@
     cursor: pointer;
 }
 .btn-primary:hover {
+   
     background-color: #0056b3;
 }
 .forgot-password {
+   
     text-align: right;
     display: block;
     font-size: 14px;
@@ -68,5 +81,6 @@
     text-decoration: none;
 }
 .forgot-password:hover {
+   
     text-decoration: underline;
 }
